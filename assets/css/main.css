@@ -4983,7 +4983,10 @@ a img {
 }
 
 .tech {
-    margin: 10px
+    margin: 10px;
+    width: 30%;     /* alle Boxen gleich breit */
+    min-width: 280px;  /* falls Bildschirm klein wird */
+    box-sizing: border-box;
 }
 
 /* Einheitliche Icon-Größe für Devicon & SVG */
@@ -5008,6 +5011,7 @@ a img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .user p {
