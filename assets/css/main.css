@@ -4986,6 +4986,21 @@ a img {
     margin: 10px
 }
 
+/* Einheitliche Icon-Größe für Devicon & SVG */
+.tech img,
+.tech i {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin: 6px;
+}
+
+/* Für Devicon-Fonts separat */
+.tech i {
+  font-size: 48px;
+}
+
+
 .user {
     text-align: center;
     font-size: 60px;
