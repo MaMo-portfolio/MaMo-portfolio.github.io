@@ -5140,3 +5140,11 @@ a img {
     margin: 0;
     color: #fff
 }
+
+
+/* Bullet Points in .tech links ausrichten */
+.tech ul {
+  text-align: left !important;
+  padding-left: 20px;      /* saubere Einrückung */
+  list-style-position: outside;
+}
